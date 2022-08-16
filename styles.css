@@ -1,0 +1,17 @@
+
+body {
+  background-color: #9c88ff;
+  margin-bottom: 20px;
+}
+
+#editor, #preview {
+  min-height: 400px;
+}
+
+#preview {
+  background-color: #dcdde1;
+}
+
+#preview img {
+  max-width: 100%;
+}
