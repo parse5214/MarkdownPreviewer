@@ -42,7 +42,7 @@ class App extends React.Component {
   }
 
   render() {
-    let markdown = marked.parse(this.state.text, {brakes : true});
+    let markdown = marked.parse(this.state.text, {breaks : true});
     return (
     <div className="container-md">
       <h1 className="text-center my-4 text-dark">Markdown Previewer</h1>
